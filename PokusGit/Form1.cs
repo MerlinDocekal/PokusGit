@@ -61,5 +61,18 @@ namespace PokusGit
         {
             MessageBox.Show("ITA2 Merlin Dočekal");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox3.Text);
+
+            int faktorial = 1;
+            for(int i = 1; i <= x; i++)
+            {
+                faktorial *= i;
+            }
+
+            MessageBox.Show("Faktoriál je " + faktorial);
+        }
     }
 }

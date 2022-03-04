@@ -46,5 +46,15 @@ namespace PokusGit
 
             MessageBox.Show("Výsledek je " + vysledek);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+
+            double vysledek = (double)a / b;
+
+            MessageBox.Show("Výsledek je " + vysledek);
+        }
     }
 }

@@ -56,5 +56,10 @@ namespace PokusGit
 
             MessageBox.Show("Výsledek je " + vysledek);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ITA2 Merlin Dočekal");
+        }
     }
 }

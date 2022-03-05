@@ -74,5 +74,21 @@ namespace PokusGit
 
             MessageBox.Show("Faktoriál je " + faktorial);
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            //Mocnina textbox1 na textbox2
+
+            int a = int.Parse(textBox1.Text);
+            int b = int.Parse(textBox2.Text);
+
+            int mocnina = 1;
+            for(int i = 0; i < b; i++)
+            {
+                mocnina *= a;
+            }
+
+            MessageBox.Show("Mocnina je " + mocnina);
+        }
     }
 }
